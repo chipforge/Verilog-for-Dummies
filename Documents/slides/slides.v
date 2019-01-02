@@ -15,7 +15,7 @@
 //          |       |
 //          '-------'
 //
-//  what happens inside is ether
+//  what happens inside is either
 //  - combinatorial         (AND, OR, + ..), or
 //  - registered            (FlipFlops, Latches, RAM)
 //
@@ -166,7 +166,7 @@ end
 //  Use conditional compiling as you might know on C
 
 //  put a definition into your Makefile for the FPGA target, 
-//  which does not occure for the ASIC target
+//  which does not occur for the ASIC target
 //
 //  `define CODINGSTYLE_FPGA 1
 
@@ -194,7 +194,7 @@ end
 
 //  NOTE:
 //  YES, is has to have to ugly, as long as
-//  ASIC tools does not support the Initial Values.
+//  ASIC tools do not support the Initial Values.
 
 //  ATTENTION:
 //  You have to verify both pathes every time, or you get lost.
@@ -233,7 +233,7 @@ end
 
 //  --------    finite state machines   ----
 
-//  THE tool of the choise for many problems!
+//  THE tool of the choice for many problems!
 //
 //  Please check at least Wikipedia
 //  https://en.wikipedia.org/wiki/Finite-state_machine
@@ -250,11 +250,11 @@ end
 //  2. registered process
 //  transform the next state into the current state
 
-//  3. depenedencies (combinatorial as well as registered possible)
+//  3. dependencies (combinatorial as well as registered possible)
 //  drive all output signals regarding the current state
 
 //  NOTE:
-//  Moore performes better than Mealy
+//  Moore performs better than Mealy
 //  https://en.wikipedia.org/wiki/Moore_machine
 
 //  --------    next state  ----------
